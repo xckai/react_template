@@ -86,7 +86,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "lint": "eslint \"./src/**/*.ts \"",
-    "lint:fix": "eslint  --fix \"./src/**/*.ts \""
+    "lint:fix": "eslint  --fix \"./src/**/*.ts \"",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
