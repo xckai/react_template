@@ -44,3 +44,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+##
+项目主要基于redux做状态管理，页面基于slice做状态划分；[关注下createSlice的基本用法](https://redux-toolkit.js.org/tutorials/quick-start)
+新增页面在Pages文件夹增加对应页面文件，路由注册在APP.tsx中；
+
