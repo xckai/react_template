@@ -7,7 +7,7 @@ const staticReducers = {
     return state;
   }
 };
-const appAsyncReducers: Partial<Record<string, (state: Object, action: Object) => Object>> = {};
+const appAsyncReducers: Partial<Record<string, (state: Record<string, unknown>, action: Record<string, unknown>) => Record<string, unknown>>> = {};
 function createReducer(asyncReducers?: any) {
   return combineReducers({
     ...staticReducers,

@@ -1,0 +1,26 @@
+module.exports = {
+  "parser": "@typescript-eslint/parser",
+  extends: ["plugin:@typescript-eslint/recommended","prettier","react-app"],
+  rules: {
+    'import/prefer-default-export': 0,
+    'no-plusplus': 0,
+    'no-bitwise': 1,
+    'no-console': 2,
+    'max-len': 1,
+    '@typescript-eslint/no-unused-vars': 1,
+    'no-restricted-globals': 1,
+    'operator-linebreak': 0,
+    'class-methods-use-this': 0,
+    '@typescript-eslint/naming-convention': 0,
+    "func-names": 0,
+    "max-len":0,
+    "linebreak-style":0,
+    'comma-dangle':0,
+    '@typescript-eslint/explicit-module-boundary-types':0,
+    '@typescript-eslint/no-unused-vars':0,
+    '@typescript-eslint/ban-ts-comment':1,
+    "@typescript-eslint/no-explicit-any":1,
+    "@typescript-eslint/no-this-alias":0,
+    "@typescript-eslint/triple-slash-reference":0
+  },
+};
